@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Globbing/1.0.0": {
+        "dependencies": {
+          "DotNet.Glob": "3.1.0"
+        },
+        "runtime": {
+          "Globbing.dll": {}
+        }
+      },
+      "DotNet.Glob/3.1.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/DotNet.Glob.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Globbing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNet.Glob/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i6x0hDsFWg6Ke2isaNAcHQ9ChxBvTJu2cSmBY+Jtjiv2W4q6y9QlA3JKYuZqJ573TAZmpAn65Qf3sRpjvZ1gmw==",
+      "path": "dotnet.glob/3.1.0",
+      "hashPath": "dotnet.glob.3.1.0.nupkg.sha512"
+    }
+  }
+}
