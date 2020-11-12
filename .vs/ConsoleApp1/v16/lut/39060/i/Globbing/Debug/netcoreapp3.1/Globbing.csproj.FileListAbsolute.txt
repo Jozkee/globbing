@@ -1,7 +1,0 @@
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\b\Globbing\Debug\netcoreapp3.1\Globbing.deps.json
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\b\Globbing\Debug\netcoreapp3.1\Globbing.dll
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\i\Globbing\Debug\netcoreapp3.1\Globbing.csprojAssemblyReference.cache
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\i\Globbing\Debug\netcoreapp3.1\Globbing.AssemblyInfoInputs.cache
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\i\Globbing\Debug\netcoreapp3.1\Globbing.AssemblyInfo.cs
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\i\Globbing\Debug\netcoreapp3.1\Globbing.csproj.CopyComplete
-C:\Users\DAVID\source\repos\ConsoleApp1\.vs\ConsoleApp1\v16\lut\0\i\Globbing\Debug\netcoreapp3.1\Globbing.dll

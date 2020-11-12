@@ -1,9 +1,0 @@
-C:\Users\DAVID\source\repos\ConsoleApp1\src\bin\Debug\netcoreapp3.1\Globbing.deps.json
-C:\Users\DAVID\source\repos\ConsoleApp1\src\bin\Debug\netcoreapp3.1\Globbing.dll
-C:\Users\DAVID\source\repos\ConsoleApp1\src\bin\Debug\netcoreapp3.1\Globbing.pdb
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.AssemblyInfoInputs.cache
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.AssemblyInfo.cs
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.csproj.CoreCompileInputs.cache
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.dll
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.pdb
-C:\Users\DAVID\source\repos\ConsoleApp1\src\obj\Debug\netcoreapp3.1\Globbing.csprojAssemblyReference.cache
