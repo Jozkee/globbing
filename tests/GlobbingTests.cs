@@ -70,11 +70,21 @@ namespace Globbing.Tests
         [InlineData("./globtest/foo", "./globtest", "f*o")]
         [InlineData("./globtest/foo/bar", "./globtest", "f*o/b*r")]
         [InlineData("./globtest/foo/bar", "./globtest/", "f*o/b*r")]
-        [InlineData("./globtest/foo", "C:", "*/f*o")]
         public void TestMatch_RelativeDirectory_RelativePattern(string searchFor, string directory, string pattern)
         {
             using var file = new TempDirectory(searchFor);
             var entries = new GlobbingEnumerable(directory, pattern);
+            Assert.Single(entries);
+        }
+
+        [FactWindowsOnly]
+        public void TestMatch_CurrentWorkingDirectory()
+        {
+            // Get the drive plus colon e.g: "C:".
+            string currentDirShortcut = Environment.CurrentDirectory.Substring(0, 2);
+
+            using var file = new TempDirectory("./globtest/foo");
+            var entries = new GlobbingEnumerable(currentDirShortcut, "*/f*");
             Assert.Single(entries);
         }
 
