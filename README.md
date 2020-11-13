@@ -1,5 +1,5 @@
 ## GlobbingEnumerable 
-Simple class prototype that extends FileSystemEnumerable and uses [DotNet.Glob](https://github.com/dazinator/DotNet.Glob) to make queries with glob patterns.
+Simple class prototype that extends FileSystemEnumerable and uses [DotNet.Glob](https://github.com/dazinator/DotNet.Glob) to match files with glob patterns.
 
 https://github.com/Jozkee/globbing/blob/master/src/GlobbingEnumerable.cs
 
