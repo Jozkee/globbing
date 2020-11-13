@@ -15,7 +15,7 @@ namespace Globbing.Tests
     {
         private static string s_root => Path.GetPathRoot(Environment.CurrentDirectory);
 
-        [Theory]
+        [TheoryWindowsOnly]
         [InlineData("globtest", "", "globtest")]
         [InlineData("globtest", "", "globte*t")]
         [InlineData("globtest/foo", "", "globtest/*")]
@@ -30,7 +30,7 @@ namespace Globbing.Tests
             Assert.Single(entries);
         }
 
-        [Theory]
+        [TheoryWindowsOnly]
         // Absolute rooted directory and relative pattern.
         [InlineData("globtest", "", "glob*est")]
         [InlineData("globtest/foo.txt", "", "glob*est/*.*")]
