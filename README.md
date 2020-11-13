@@ -31,6 +31,7 @@ foreach (string entry in entries)
 
 Result:
 ```
+Files found:
 /bar/Program.cs
 /foo/Class1.cs
 /qux/Class2.cs
