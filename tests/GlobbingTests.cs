@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System;
 using Xunit;
+using GlobbingTests.Helpers;
 
 namespace Globbing.Tests
 {
@@ -77,8 +78,7 @@ namespace Globbing.Tests
             Assert.Single(entries);
         }
 
-        [Fact]
-        [PlatformSpecific(TestPlatforms.Windows)]
+        [FactWindowsOnly]
         public void TestMatch_UNCPath()
         {
             using var file = new TempDirectory("//wsl$/Ubuntu/home/jozky/globtest/foo");
@@ -86,8 +86,7 @@ namespace Globbing.Tests
             Assert.Single(entries);
         }
 
-        [Fact(Skip = "Insufficient system resources exist to complete the requested service.")]
-        [PlatformSpecific(TestPlatforms.Windows)]
+        [FactWindowsOnly(Skip = "Insufficient system resources exist to complete the requested service.")]
         public void TestMatch_UNCPath_FailingTest()
         {
             using var file = new TempDirectory("//wsl$/Ubuntu/home/jozky/globtest");
@@ -95,8 +94,7 @@ namespace Globbing.Tests
             Assert.Single(entries);
         }
 
-        [Fact]
-        [PlatformSpecific(TestPlatforms.Windows)]
+        [FactWindowsOnly]
         public void TestMatch_FailingTest_Windows()
         {
             using var file = new TempDirectory("C:/repos/globtest");
